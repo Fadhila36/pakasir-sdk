@@ -14,6 +14,17 @@
         "illuminate/support": "^10.0|^11.0|^12.0",
         "guzzlehttp/guzzle": "^7.0"
     },
+    "keywords": [
+        "laravel",
+        "php",
+        "sdk",
+        "payment-gateway",
+        "pakasir",
+        "laravel-package",
+        "api-client",
+        "fintech",
+        "indonesia"
+    ],
     "autoload": {
         "psr-4": {
             "Fadhila36\\Pakasir\\": "src/"
