@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     /*
     |--------------------------------------------------------------------------
@@ -25,4 +27,32 @@ return [
     */
 
     'base_url' => env('PAKASIR_BASE_URL', 'https://app.pakasir.com/api'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | HTTP Client Connection Settings
+    |--------------------------------------------------------------------------
+    |
+    | Configure connection behaviors like timeout and automated retries.
+    | Timeout is in seconds. Retry delay is in milliseconds.
+    |
+    */
+
+    'timeout' => (int) env('PAKASIR_TIMEOUT', 30),
+
+    'retry_attempts' => (int) env('PAKASIR_RETRY_ATTEMPTS', 3),
+
+    'retry_delay' => (int) env('PAKASIR_RETRY_DELAY', 100),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Logging Support
+    |--------------------------------------------------------------------------
+    |
+    | When enabled, API request and response data will be logged.
+    | Useful for debugging integration issues.
+    |
+    */
+
+    'logging_enabled' => (bool) env('PAKASIR_LOGGING_ENABLED', false),
 ];
