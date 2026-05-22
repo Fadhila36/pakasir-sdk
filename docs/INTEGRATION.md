@@ -15,7 +15,7 @@ Dokumen ini dirancang untuk **Pemula** maupun **Profesional**. Kami akan memandu
 ## 1. Persiapan Awal
 
 Sebelum memulai, pastikan Anda memiliki:
--   **PHP 8.1+** dan **Laravel 10/11/12**.
+-   **PHP 8.3+** dan **Laravel 11 / 12 / 13**.
 -   **Akun Pakasir**: Daftar di [pakasir.com](https://app.pakasir.com).
 -   **Kredensial**: Ambil `Project Slug` dan `API Key` dari dashboard.
 

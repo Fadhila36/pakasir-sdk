@@ -27,7 +27,7 @@ SDK ini mendukung QRIS, Virtual Account multi-bank (BNI, BRI, CIMB, Permata, dll
 
 ## 📦 Instalasi
 
-Pastikan server Anda menggunakan **PHP 8.3+** dan aplikasi Anda berbasis **Laravel 10.0 s/d 13.0+**.
+Pastikan server Anda menggunakan **PHP 8.3+** dan aplikasi Anda berbasis **Laravel 11.0 s/d 13.0+**.
 
 Jalankan perintah Composer berikut untuk menginstal:
 
